@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Carousel con JS</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<section class="container">
+		<section class="row">
+			<header class="page-header">
+				<h1>Imagenes CLAMP</h1>
+			</header>
+		</section>
+		<section class="principal">
+			<section class="container-divs">
+				<div class="carousel">
+					<div data-slide="0" class="carousel-content active">
+						<img src="img/xclamp.jpe" alt="xclamp">
+					</div>
+					<div data-slide="1" class="carousel-content ">
+						<img src="img/tsubasa.jpe" alt="tsubasa">
+					</div>
+					<div data-slide="2" class="carousel-content ">
+						<img src="img/sakura.jpe" alt="sakura">
+					</div>
+					<div data-slide="3" class="carousel-content">
+						<img src="img/holic.jpe" alt="holic">
+					</div>
+					<div data-slide="4" class="carousel-content">
+						<img src="img/chobits.jpe" alt="chobits">
+					</div>
+				</div>
+			</section>
+			<section class="container-button">
+				<div class="controls">
+					<a href="#" class="previous"><img src="img/cocomenor.jpg" alt="cocodrilo"></a>
+					<button type="button" data-target="0" class="control boton">1</button>
+					<button type="button" data-target="1" class="control boton">2</button>
+					<button type="button" data-target="2" class="control boton">3</button>
+					<button type="button" data-target="3" class="control boton">4</button>
+					<button type="button" data-target="4" class="control boton">5</button>
+					<a href="#" class="next"><img src="img/cocomayor.jpg" alt="cocodrilo"></a>
+				</div>
+			</section>
+
+		</section>
+	</section>
+
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
