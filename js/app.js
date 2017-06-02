@@ -4,7 +4,7 @@ var cargarPagina = function () {
 	// Eventos
 
 	$(".control").click(cambiarImagen);
-	$(".previus").click(anteriorImagen);
+	$(".previous").click(anteriorImagen);
 	$(".next").click(siguienteImagen);
 };
 
